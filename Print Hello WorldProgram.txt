@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>My Objects</title>
+            </head>
+
+    <body>
+        <script>
+var car = {
+    brand : "fiat" ,
+    weight : 100 ,
+    color :"red",
+    model:"Grand10",
+
+    autopiolit:function()
+    {
+         document.write("<h2> This  car weight is  " + car.weight+ " pounds </h2>");
+         document.write("<h2>" +typeof(car.color)+ "</h2>");
+    }    
+}
+car.autopiolit();
+// Adding new property out side of the object is defined below .
+car.fueltype= "petrol";
+document.write("<h2>" +car.fueltype+ "</h2>" );
+
+
+    //document.write("<h2> This  car is  " + car.brand+ "</h2>");
+
+
+
+
+
+
+
+        </script>
+    </body>
+
+</html>
